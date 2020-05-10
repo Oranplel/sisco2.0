@@ -1,0 +1,15 @@
+<?php
+ 
+ $hostname_db = "localhost";
+ $database_db = "sisco";
+ $username_db = "root";
+ $password_db = "e-jovem";
+
+
+ error_reporting(0);
+ 
+ $mysqli = mysqli_connect("$hostname_db", "$username_db", "$password_db", "$database_db") or die ("Ocorreu um na conexao com o banco de dados! ");
+
+
+
+ ?>
